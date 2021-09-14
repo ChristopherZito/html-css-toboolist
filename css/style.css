@@ -1,0 +1,124 @@
+
+/* impostazioni iniziali */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+/* header */
+header {
+    background-color: white;
+    margin-bottom: 50px;
+}
+header img {
+    line-height: 100px;
+    vertical-align: middle;
+    margin: 10px;
+}
+#logotext{
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: 600;
+
+}
+
+/* pulsanti Add */
+
+.addon {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+}
+#radius {
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+#task {
+    border: none;
+    background-color: rgb(0, 195, 255);
+    padding: 10px;
+    margin: 10px;
+    margin-left: 5%;
+    border-radius: 25%;
+    color: white;
+
+}
+#select {
+    border: grey solid 1px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 25%;
+    color: grey;
+
+}
+
+/* body */
+.text {
+    margin-left: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+main div {
+    margin: 15px;
+    margin-top: 5px;
+    margin-left: 0px;
+}
+
+.info {
+    font-size: 10px;
+    color: white;
+    padding: 10px;
+
+}
+/* colore caselle */
+.blu {
+    background-color: blue;
+    border-radius: 50%;
+    
+}
+.violet {
+    background-color: blueviolet;
+    border-radius: 50%;
+}
+.green {
+    background-color: green;
+    border-radius: 50%;
+}
+.orange {
+    background-color: orange;
+    border-radius: 50% ;
+}
+.pink {
+    background-color: pink;
+    border-radius: 50%;
+}
+.yellow {
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+/* forme */
+.check {
+    border: green solid 1px;
+    color: green;
+    border-radius: 50%;
+    padding: 3px;
+    margin-left: -20px;
+    margin-right: 5px;
+}
+.cross {
+    border: red solid 1px;
+    color: red;
+    border-radius: 50%;
+    padding: 3px;
+    margin-left: -20px;
+    margin-right: 5px;
+}
