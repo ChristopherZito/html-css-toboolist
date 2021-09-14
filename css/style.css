@@ -71,7 +71,9 @@ main div {
     margin-top: 5px;
     margin-left: 0px;
 }
-
+section h2 {
+    margin-left: -20px;
+}
 .info {
     font-size: 10px;
     color: white;
